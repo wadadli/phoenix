@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.5.59.192:5000/wadadli/phoenix
+  tag: 1.4.1
   pullPolicy: IfNotPresent
 service:
   name: phoenix
